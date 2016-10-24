@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Hello World</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+           $("ul li:first-child").dblclick(function () {
+                $(this).parents(".hey").hide();
+           });
+        });
+
+
+
+    </script>
+
+
+
+
+</head>
+<body>
+
+    <p>Hello, World!</p>
+    <p class="hey">Hello,World!</p>
+    <div class="hey">
+        Hello, World!
+        <ul>
+            <li>ul1.1</li>
+            <li>ul1.2</li>
+
+        </ul>
+    </div>
+
+    <ul>
+        <li>ul2.1</li>
+        <li>ul2.2</li>
+
+    </ul>
+</body>
+</html>
